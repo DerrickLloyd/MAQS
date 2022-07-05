@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PerfTimerCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Timerlist>
+    <PerfTimer>
+      <TimerContext />
+      <TimerName>Login timer</TimerName>
+      <StartTime>2022-07-05T15:43:42.55682Z</StartTime>
+      <EndTime>2022-07-05T15:43:43.1340181Z</EndTime>
+      <DurationTicks>5771981</DurationTicks>
+    </PerfTimer>
+  </Timerlist>
+  <FileName>PerformanceTimerResults-Tests.SeleniumTestsVSUnit.UseLogger-2022-07-05T15-43-43.1466088Z.xml</FileName>
+  <TestName>Tests.SeleniumTestsVSUnit.UseLogger</TestName>
+  <PerfPayloadString />
+</PerfTimerCollection>

@@ -1,0 +1,78 @@
+
+2022-07-05 15:43:38.671
+INFORMATION:	Setup test object for Tests.SeleniumTestsVSUnit.UseLogger
+
+2022-07-05 15:43:41.573
+INFORMATION:	Local driver: OpenQA.Selenium.Chrome.ChromeDriver
+
+2022-07-05 15:43:42.447
+INFORMATION:	Navigated to: https://magenicautomation.azurewebsites.net/Static/Training3/loginpage.html
+
+2022-07-05 15:43:42.450
+INFORMATION:	Checking to see if the lazy element 'User name input' is displayed
+
+2022-07-05 15:43:42.465
+INFORMATION:	Found element: By.CssSelector: #name
+
+2022-07-05 15:43:42.482
+INFORMATION:	Checking to see if the lazy element 'Password input' is displayed
+
+2022-07-05 15:43:42.490
+INFORMATION:	Found element: By.CssSelector: #pw
+
+2022-07-05 15:43:42.500
+INFORMATION:	Checking to see if the lazy element 'Login button' is displayed
+
+2022-07-05 15:43:42.507
+INFORMATION:	Found element: By.CssSelector: #Login
+
+2022-07-05 15:43:42.515
+INFORMATION:	Checking to see if the lazy element 'User name input' is displayed
+
+2022-07-05 15:43:42.531
+INFORMATION:	Checking to see if the lazy element 'Password input' is displayed
+
+2022-07-05 15:43:42.541
+INFORMATION:	Checking to see if the lazy element 'Login button' is displayed
+
+2022-07-05 15:43:42.555
+SUCCESS:	Login Page is Successfully Opened
+
+2022-07-05 15:43:42.556
+INFORMATION:	Starting response timer: Login timer
+
+2022-07-05 15:43:42.557
+ACTION:	Send keys 'Ted' to 'User name input'
+
+2022-07-05 15:43:42.606
+INFORMATION:	Element value changed: Ted
+
+2022-07-05 15:43:42.607
+ACTION:	Send keys '123' to 'Password input'
+
+2022-07-05 15:43:42.647
+INFORMATION:	Element value changed: 123
+
+2022-07-05 15:43:42.648
+ACTION:	Click 'Login button'
+
+2022-07-05 15:43:42.671
+INFORMATION:	Element clicking: Element (id = db1574a8-97a1-4c08-bbe4-19dad3f466e4) Text:Login Location: X:8 Y:292
+
+2022-07-05 15:43:43.115
+INFORMATION:	Checking to see if the lazy element 'Welcome message' is displayed
+
+2022-07-05 15:43:43.123
+INFORMATION:	Found element: By.CssSelector: #WelcomeMessage
+
+2022-07-05 15:43:43.134
+INFORMATION:	Stopping response time test: Login timer
+
+2022-07-05 15:43:43.135
+SUCCESS:	User Successfully Logged In
+
+2022-07-05 15:43:43.137
+SUCCESS:	Test passed
+
+2022-07-05 15:43:43.146
+INFORMATION:	filename: c:\Users\derricklloyd.pua\source\repos\MAQS\Homework2\Tests\bin\Debug\netcoreapp3.1\Logs\PerformanceTimerResults-Tests.SeleniumTestsVSUnit.UseLogger-2022-07-05T15-43-43.1466088Z.xml

@@ -1,0 +1,140 @@
+
+2022-07-05 15:06:31.124
+INFORMATION:	Setup test object for Tests.SeleniumTestsVSUnit.UseValueAndObjectCollections
+
+2022-07-05 15:06:33.180
+INFORMATION:	Local driver: OpenQA.Selenium.Chrome.ChromeDriver
+
+2022-07-05 15:06:34.045
+INFORMATION:	Navigated to: https://magenicautomation.azurewebsites.net/Static/Training3/loginpage.html
+
+2022-07-05 15:06:34.048
+INFORMATION:	Checking to see if the lazy element 'User name input' is displayed
+
+2022-07-05 15:06:34.064
+INFORMATION:	Found element: By.CssSelector: #name
+
+2022-07-05 15:06:34.081
+INFORMATION:	Checking to see if the lazy element 'Password input' is displayed
+
+2022-07-05 15:06:34.089
+INFORMATION:	Found element: By.CssSelector: #pw
+
+2022-07-05 15:06:34.099
+INFORMATION:	Checking to see if the lazy element 'Login button' is displayed
+
+2022-07-05 15:06:34.107
+INFORMATION:	Found element: By.CssSelector: #Login
+
+2022-07-05 15:06:34.115
+ACTION:	Send keys 'Derrick' to 'User name input'
+
+2022-07-05 15:06:34.167
+INFORMATION:	Element value changed: Derrick
+
+2022-07-05 15:06:34.168
+ACTION:	Send keys '123' to 'Password input'
+
+2022-07-05 15:06:34.213
+INFORMATION:	Element value changed: 123
+
+2022-07-05 15:06:34.214
+ACTION:	Click 'Login button'
+
+2022-07-05 15:06:34.234
+INFORMATION:	Element clicking: Element (id = 4e66c352-0c41-4fbc-8a20-f36ce0009189) Text:Login Location: X:8 Y:292
+
+2022-07-05 15:06:34.265
+INFORMATION:	Checking to see if the lazy element 'Welcome message' is displayed
+
+2022-07-05 15:06:48.804
+ERROR:	
+chrome not reachable
+  (Session info: chrome=102.0.5005.115)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.FindElement(By by)
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.Wait.<>c__DisplayClass39_0.<ElementDoesExist>b__0(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.Wait.ForElementExist(By by)
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.AbstractLazyIWebElement.GetRawExistingElement()
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.AbstractLazyIWebElement.GetElement(Func`1 getElement)
+
+2022-07-05 15:06:48.916
+ERROR:	
+Failed to find: Welcome message
+Locator: By.CssSelector: #WelcomeMessage
+Because: chrome not reachable
+  (Session info: chrome=102.0.5005.115)
+
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.AbstractLazyIWebElement.GetElement(Func`1 getElement)
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.AbstractLazyIWebElement.<get_Displayed>b__38_0()
+   at CognizantSoftvision.Maqs.Utilities.Helper.GenericWait.Wait[T](Func`1 waitFor, TimeSpan retryTime, TimeSpan timeout)
+  chrome not reachable
+  (Session info: chrome=102.0.5005.115)
+     at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.FindElement(By by)
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.Wait.<>c__DisplayClass39_0.<ElementDoesExist>b__0(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.Wait.ForElementExist(By by)
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.AbstractLazyIWebElement.GetRawExistingElement()
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.AbstractLazyIWebElement.GetElement(Func`1 getElement)
+
+2022-07-05 15:06:48.918
+ERROR:	
+Timed out waiting for <get_Displayed>b__38_0 to return
+   at CognizantSoftvision.Maqs.Utilities.Helper.GenericWait.Wait[T](Func`1 waitFor, TimeSpan retryTime, TimeSpan timeout)
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.AbstractLazyIWebElement.get_Displayed()
+   at PageModel.HomePageModel.IsPageLoaded() in c:\Users\derricklloyd.pua\source\repos\MAQS\Homework2\PageModel\HomePageModel.cs:line 34
+   at Tests.SeleniumTestsVSUnit.UseValueAndObjectCollections() in c:\Users\derricklloyd.pua\source\repos\MAQS\Homework2\Tests\SeleniumTestsVSUnit.cs:line 66
+  Failed to find: Welcome message
+Locator: By.CssSelector: #WelcomeMessage
+Because: chrome not reachable
+  (Session info: chrome=102.0.5005.115)
+
+     at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.AbstractLazyIWebElement.GetElement(Func`1 getElement)
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.AbstractLazyIWebElement.<get_Displayed>b__38_0()
+   at CognizantSoftvision.Maqs.Utilities.Helper.GenericWait.Wait[T](Func`1 waitFor, TimeSpan retryTime, TimeSpan timeout)
+    chrome not reachable
+  (Session info: chrome=102.0.5005.115)
+       at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.FindElement(By by)
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.Wait.<>c__DisplayClass39_0.<ElementDoesExist>b__0(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.Wait.ForElementExist(By by)
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.AbstractLazyIWebElement.GetRawExistingElement()
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.AbstractLazyIWebElement.GetElement(Func`1 getElement)
+
+2022-07-05 15:06:48.924
+ERROR:	Test failed
+
+2022-07-05 15:07:01.082
+ERROR:	Screenshot error: OpenQA.Selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=102.0.5005.115)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.GetScreenshot()
+   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.GetScreenshot()
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.SeleniumUtilities.CaptureScreenshot(IWebDriver webDriver, ISeleniumTestObject testObject, String directory, String fileNameWithoutExtension, ScreenshotImageFormat imageFormat)
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.SeleniumUtilities.CaptureScreenshot(IWebDriver webDriver, ISeleniumTestObject testObject, String appendName)
+
+2022-07-05 15:07:01.403
+ERROR:	Failed to close web driver because: chrome not reachable
+  (Session info: chrome=102.0.5005.115)
