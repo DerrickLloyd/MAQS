@@ -1,0 +1,12 @@
+c:\Users\derricklloyd.pua\source\repos\MAQS\Homework3\WebServiceModel\bin\Debug\netcoreapp3.1\WebServiceModel.deps.json
+c:\Users\derricklloyd.pua\source\repos\MAQS\Homework3\WebServiceModel\bin\Debug\netcoreapp3.1\WebServiceModel.dll
+c:\Users\derricklloyd.pua\source\repos\MAQS\Homework3\WebServiceModel\bin\Debug\netcoreapp3.1\WebServiceModel.pdb
+c:\Users\derricklloyd.pua\source\repos\MAQS\Homework3\WebServiceModel\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+c:\Users\derricklloyd.pua\source\repos\MAQS\Homework3\WebServiceModel\obj\Debug\netcoreapp3.1\WebServiceModel.csproj.AssemblyReference.cache
+c:\Users\derricklloyd.pua\source\repos\MAQS\Homework3\WebServiceModel\obj\Debug\netcoreapp3.1\WebServiceModel.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\derricklloyd.pua\source\repos\MAQS\Homework3\WebServiceModel\obj\Debug\netcoreapp3.1\WebServiceModel.AssemblyInfoInputs.cache
+c:\Users\derricklloyd.pua\source\repos\MAQS\Homework3\WebServiceModel\obj\Debug\netcoreapp3.1\WebServiceModel.AssemblyInfo.cs
+c:\Users\derricklloyd.pua\source\repos\MAQS\Homework3\WebServiceModel\obj\Debug\netcoreapp3.1\WebServiceModel.csproj.CoreCompileInputs.cache
+c:\Users\derricklloyd.pua\source\repos\MAQS\Homework3\WebServiceModel\obj\Debug\netcoreapp3.1\WebServiceModel.csproj.CopyComplete
+c:\Users\derricklloyd.pua\source\repos\MAQS\Homework3\WebServiceModel\obj\Debug\netcoreapp3.1\WebServiceModel.dll
+c:\Users\derricklloyd.pua\source\repos\MAQS\Homework3\WebServiceModel\obj\Debug\netcoreapp3.1\WebServiceModel.pdb

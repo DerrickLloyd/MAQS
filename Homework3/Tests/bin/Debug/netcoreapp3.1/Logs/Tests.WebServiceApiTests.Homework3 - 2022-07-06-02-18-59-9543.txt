@@ -1,0 +1,35 @@
+
+2022-07-06 14:18:59.961
+INFORMATION:	Setup test object for Tests.WebServiceApiTests.Homework3
+
+2022-07-06 14:19:00.006
+INFORMATION:	Getting event firing web service driver
+
+2022-07-06 14:19:00.010
+ACTION:	Sending GET request to https://magenicautomation.azurewebsites.net/ at endpoint /api/XML_JSON/GetAllProducts
+Content:
+  **Content is null**
+
+2022-07-06 14:19:00.952
+INFORMATION:	Received GET response from https://magenicautomation.azurewebsites.net/api/XML_JSON/GetAllProducts
+Returned OK(200)
+Content:
+<ArrayOfProduct xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/AutomationTestSite.Models"><Product><Id>1</Id><Name>Tomato Soup</Name><Category>Groceries</Category><Price>1</Price></Product><Product><Id>2</Id><Name>Yo-yo</Name><Category>Toys</Category><Price>3.75</Price></Product><Product><Id>3</Id><Name>Hammer</Name><Category>Hardware</Category><Price>16.99</Price></Product></ArrayOfProduct>
+
+2022-07-06 14:19:00.971
+ERROR:	
+Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at CognizantSoftvision.Maqs.BaseWebServiceTest.WebServiceUtils.DeserializeJson[T](HttpResponseMessage message)
+   at Tests.WebServiceApiTests.Homework3() in c:\Users\derricklloyd.pua\source\repos\MAQS\Homework3\Tests\WebServiceApiTests.cs:line 31
+
+2022-07-06 14:19:00.976
+ERROR:	Test failed

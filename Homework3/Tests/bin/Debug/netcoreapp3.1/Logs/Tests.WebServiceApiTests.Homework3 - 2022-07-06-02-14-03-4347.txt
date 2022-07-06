@@ -1,0 +1,40 @@
+
+2022-07-06 14:14:03.443
+INFORMATION:	Setup test object for Tests.WebServiceApiTests.Homework3
+
+2022-07-06 14:14:03.496
+INFORMATION:	Getting event firing web service driver
+
+2022-07-06 14:14:03.499
+ACTION:	Sending GET request to https://magenicautomation.azurewebsites.net/ at endpoint /api/XML_JSON/GetAllProducts
+Content:
+  **Content is null**
+
+2022-07-06 14:14:04.419
+INFORMATION:	Received GET response from https://magenicautomation.azurewebsites.net/api/XML_JSON/GetAllProducts
+Returned OK(200)
+Content:
+[{"Id":1,"Name":"Tomato Soup","Category":"Groceries","Price":1.0},{"Id":2,"Name":"Yo-yo","Category":"Toys","Price":3.75},{"Id":3,"Name":"Hammer","Category":"Hardware","Price":16.99}]
+
+
+2022-07-06 14:14:04.437
+ERROR:	
+Cannot deserialize the current JSON array (e.g. [1,2,3]) into type 'WebServiceModel.ArrayOfProducts' because the type requires a JSON object (e.g. {"name":"value"}) to deserialize correctly.
+To fix this error either change the JSON to a JSON object (e.g. {"name":"value"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
+Path '', line 1, position 1.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureArrayContract(JsonReader reader, Type objectType, JsonContract contract)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at CognizantSoftvision.Maqs.BaseWebServiceTest.WebServiceUtils.DeserializeJson[T](HttpResponseMessage message)
+   at Tests.WebServiceApiTests.Homework3() in c:\Users\derricklloyd.pua\source\repos\MAQS\Homework3\Tests\WebServiceApiTests.cs:line 31
+
+
+
+2022-07-06 14:14:04.442
+ERROR:	Test failed

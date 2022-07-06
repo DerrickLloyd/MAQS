@@ -1,0 +1,62 @@
+
+2022-07-06 13:50:06.593
+INFORMATION:	Setup test object for Tests.WebServiceTestNUnit.GetXmlDeserializedNUnit
+
+2022-07-06 13:50:06.638
+INFORMATION:	Getting event firing web service driver
+
+2022-07-06 13:50:06.649
+ACTION:	Sending GET request to https://magenicautomation.azurewebsites.net/ at endpoint /api/XML_JSON/GetAllProducts
+Content:
+  **Content is null**
+
+2022-07-06 13:50:07.549
+INFORMATION:	Received GET response from https://magenicautomation.azurewebsites.net/api/XML_JSON/GetAllProducts
+Returned OK(200)
+Content:
+<ArrayOfProduct xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/AutomationTestSite.Models"><Product><Id>1</Id><Name>Tomato Soup</Name><Category>Groceries</Category><Price>1</Price></Product><Product><Id>2</Id><Name>Yo-yo</Name><Category>Toys</Category><Price>3.75</Price></Product><Product><Id>3</Id><Name>Hammer</Name><Category>Hardware</Category><Price>16.99</Price></Product></ArrayOfProduct>
+
+2022-07-06 13:50:07.591
+ERROR:	
+One or more errors occurred. (There is an error in XML document (1, 143).)
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at CognizantSoftvision.Maqs.BaseWebServiceTest.WebServiceUtils.DeserializeResponse[T](HttpResponseMessage response, List`1 supportedFormatters)
+ There is an error in XML document (1, 143).
+    at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader)
+   at System.Net.Http.Formatting.XmlMediaTypeFormatter.ReadFromStream(Type type, Stream readStream, HttpContent content, IFormatterLogger formatterLogger)
+   at System.Net.Http.Formatting.XmlMediaTypeFormatter.ReadFromStreamAsync(Type type, Stream readStream, HttpContent content, IFormatterLogger formatterLogger)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Net.Http.HttpContentExtensions.ReadAsAsyncCore[T](HttpContent content, Type type, IFormatterLogger formatterLogger, MediaTypeFormatter formatter, CancellationToken cancellationToken)
+   <ArrayOfProduct xmlns='http://schemas.datacontract.org/2004/07/AutomationTestSite.Models'> was not expected.
+      at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderProductXml.Read3_Product()
+
+2022-07-06 13:50:07.594
+ERROR:	
+Response could not be deserialized to a WebServiceModel.ProductXml object.
+Body:
+<ArrayOfProduct xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/AutomationTestSite.Models"><Product><Id>1</Id><Name>Tomato Soup</Name><Category>Groceries</Category><Price>1</Price></Product><Product><Id>2</Id><Name>Yo-yo</Name><Category>Toys</Category><Price>3.75</Price></Product><Product><Id>3</Id><Name>Hammer</Name><Category>Hardware</Category><Price>16.99</Price></Product></ArrayOfProduct>
+Because:One or more errors occurred. (There is an error in XML document (1, 143).)
+   at CognizantSoftvision.Maqs.BaseWebServiceTest.WebServiceUtils.DeserializeResponse[T](HttpResponseMessage response, List`1 supportedFormatters)
+   at CognizantSoftvision.Maqs.BaseWebServiceTest.WebServiceDriver.Send[T](HttpRequestMessage httpRequestMessage, String expectedMediaType, Boolean expectSuccess)
+   at CognizantSoftvision.Maqs.BaseWebServiceTest.WebServiceDriver.Get[T](String requestUri, String expectedMediaType, Boolean expectSuccess)
+   at Tests.WebServiceTestNUnit.GetXmlDeserializedNUnit() in c:\Users\derricklloyd.pua\source\repos\MAQS\Homework3\Tests\WebServiceTestNUnit.cs:line 19
+  One or more errors occurred. (There is an error in XML document (1, 143).)
+     at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at CognizantSoftvision.Maqs.BaseWebServiceTest.WebServiceUtils.DeserializeResponse[T](HttpResponseMessage response, List`1 supportedFormatters)
+   There is an error in XML document (1, 143).
+      at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader)
+   at System.Net.Http.Formatting.XmlMediaTypeFormatter.ReadFromStream(Type type, Stream readStream, HttpContent content, IFormatterLogger formatterLogger)
+   at System.Net.Http.Formatting.XmlMediaTypeFormatter.ReadFromStreamAsync(Type type, Stream readStream, HttpContent content, IFormatterLogger formatterLogger)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Net.Http.HttpContentExtensions.ReadAsAsyncCore[T](HttpContent content, Type type, IFormatterLogger formatterLogger, MediaTypeFormatter formatter, CancellationToken cancellationToken)
+     <ArrayOfProduct xmlns='http://schemas.datacontract.org/2004/07/AutomationTestSite.Models'> was not expected.
+        at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderProductXml.Read3_Product()
+
+2022-07-06 13:50:07.599
+ERROR:	Test failed

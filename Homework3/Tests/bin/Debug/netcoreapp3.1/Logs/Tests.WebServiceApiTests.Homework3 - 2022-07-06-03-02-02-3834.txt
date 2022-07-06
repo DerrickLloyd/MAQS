@@ -1,0 +1,21 @@
+
+2022-07-06 15:02:02.392
+INFORMATION:	Setup test object for Tests.WebServiceApiTests.Homework3
+
+2022-07-06 15:02:02.436
+INFORMATION:	Getting event firing web service driver
+
+2022-07-06 15:02:02.441
+ACTION:	Sending GET request to https://magenicautomation.azurewebsites.net/ at endpoint /api/XML_JSON/GetAllProducts
+Content:
+  **Content is null**
+
+2022-07-06 15:02:03.352
+INFORMATION:	Received GET response from https://magenicautomation.azurewebsites.net/api/XML_JSON/GetAllProducts
+Returned OK(200)
+Content:
+[{"Id":1,"Name":"Tomato Soup","Category":"Groceries","Price":1.0},{"Id":2,"Name":"Yo-yo","Category":"Toys","Price":3.75},{"Id":3,"Name":"Hammer","Category":"Hardware","Price":16.99}]
+
+
+2022-07-06 15:02:03.371
+SUCCESS:	Test passed

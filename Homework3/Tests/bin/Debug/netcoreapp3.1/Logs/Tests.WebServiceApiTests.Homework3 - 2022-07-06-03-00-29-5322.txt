@@ -1,0 +1,33 @@
+
+2022-07-06 15:00:29.539
+INFORMATION:	Setup test object for Tests.WebServiceApiTests.Homework3
+
+2022-07-06 15:00:29.587
+INFORMATION:	Getting event firing web service driver
+
+2022-07-06 15:00:29.592
+ACTION:	Sending GET request to https://magenicautomations.azurewebsites.net/ at endpoint /api/XML_JSON/GetAllProducts
+Content:
+  **Content is null**
+
+2022-07-06 15:00:29.694
+ERROR:	
+No such host is known.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at CognizantSoftvision.Maqs.BaseWebServiceTest.WebServiceDriver.SendAsync(HttpRequestMessage message)
+   at CognizantSoftvision.Maqs.BaseWebServiceTest.WebServiceDriver.SendWithResponse(HttpRequestMessage httpRequestMessage, String expectedMediaType, Boolean expectSuccess)
+   at CognizantSoftvision.Maqs.BaseWebServiceTest.EventFiringWebServiceDriver.SendWithResponse(HttpRequestMessage httpRequestMessage, String expectedMediaType, Boolean expectSuccess)
+   at CognizantSoftvision.Maqs.BaseWebServiceTest.WebServiceDriver.Send[T](HttpRequestMessage httpRequestMessage, String expectedMediaType, Boolean expectSuccess)
+   at CognizantSoftvision.Maqs.BaseWebServiceTest.WebServiceDriver.Get[T](String requestUri, String expectedMediaType, Boolean expectSuccess)
+   at Tests.WebServiceApiTests.Homework3() in c:\Users\derricklloyd.pua\source\repos\MAQS\Homework3\Tests\WebServiceApiTests.cs:line 29
+  No such host is known.
+     at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+
+2022-07-06 15:00:29.700
+ERROR:	Test failed
