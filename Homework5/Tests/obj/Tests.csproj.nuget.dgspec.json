@@ -1,0 +1,140 @@
+{
+  "format": 1,
+  "restore": {
+    "c:\\Users\\derricklloyd.pua\\source\\repos\\MAQS\\Homework5\\Tests\\Tests.csproj": {}
+  },
+  "projects": {
+    "c:\\Users\\derricklloyd.pua\\source\\repos\\MAQS\\Homework5\\PageModel\\PageModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\derricklloyd.pua\\source\\repos\\MAQS\\Homework5\\PageModel\\PageModel.csproj",
+        "projectName": "PageModel",
+        "projectPath": "c:\\Users\\derricklloyd.pua\\source\\repos\\MAQS\\Homework5\\PageModel\\PageModel.csproj",
+        "packagesPath": "C:\\Users\\derricklloyd.pua\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\derricklloyd.pua\\source\\repos\\MAQS\\Homework5\\PageModel\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\derricklloyd.pua\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "CognizantSoftvision.Maqs.Selenium": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\derricklloyd.pua\\source\\repos\\MAQS\\Homework5\\Tests\\Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\derricklloyd.pua\\source\\repos\\MAQS\\Homework5\\Tests\\Tests.csproj",
+        "projectName": "Tests",
+        "projectPath": "c:\\Users\\derricklloyd.pua\\source\\repos\\MAQS\\Homework5\\Tests\\Tests.csproj",
+        "packagesPath": "C:\\Users\\derricklloyd.pua\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\derricklloyd.pua\\source\\repos\\MAQS\\Homework5\\Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\derricklloyd.pua\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "c:\\Users\\derricklloyd.pua\\source\\repos\\MAQS\\Homework5\\PageModel\\PageModel.csproj": {
+                "projectPath": "c:\\Users\\derricklloyd.pua\\source\\repos\\MAQS\\Homework5\\PageModel\\PageModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.8, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.1.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

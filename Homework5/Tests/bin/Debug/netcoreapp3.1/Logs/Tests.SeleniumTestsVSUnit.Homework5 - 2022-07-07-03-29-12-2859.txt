@@ -1,0 +1,60 @@
+
+2022-07-07 15:29:12.295
+INFORMATION:	Setup test object for Tests.SeleniumTestsVSUnit.Homework5
+
+2022-07-07 15:29:18.402
+ERROR:	
+Process unexpectedly closed with status 0
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.WebDriver..ctor(ICommandExecutor executor, ICapabilities capabilities)
+   at OpenQA.Selenium.Firefox.FirefoxDriver..ctor(FirefoxDriverService service, FirefoxOptions options, TimeSpan commandTimeout)
+   at OpenQA.Selenium.Firefox.FirefoxDriver..ctor(String geckoDriverDirectory, FirefoxOptions options, TimeSpan commandTimeout)
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.WebDriverFactory.<>c__DisplayClass13_0.<GetFirefoxDriver>b__0()
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.WebDriverFactory.CreateDriver(Func`1 createFunction, Boolean retry)
+
+2022-07-07 15:29:18.404
+ERROR:	
+Your web driver may be out of date or unsupported.
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.WebDriverFactory.CreateDriver(Func`1 createFunction, Boolean retry)
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.WebDriverFactory.GetFirefoxDriver(TimeSpan commandTimeout, FirefoxOptions firefoxOptions, String size)
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.WebDriverFactory.GetBrowserWithDefaultConfiguration(BrowserType browser)
+  Process unexpectedly closed with status 0
+     at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.WebDriver..ctor(ICommandExecutor executor, ICapabilities capabilities)
+   at OpenQA.Selenium.Firefox.FirefoxDriver..ctor(FirefoxDriverService service, FirefoxOptions options, TimeSpan commandTimeout)
+   at OpenQA.Selenium.Firefox.FirefoxDriver..ctor(String geckoDriverDirectory, FirefoxOptions options, TimeSpan commandTimeout)
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.WebDriverFactory.<>c__DisplayClass13_0.<GetFirefoxDriver>b__0()
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.WebDriverFactory.CreateDriver(Func`1 createFunction, Boolean retry)
+
+2022-07-07 15:29:18.415
+ERROR:	
+Your web driver may be out of date or unsupported.
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.WebDriverFactory.GetBrowserWithDefaultConfiguration(BrowserType browser)
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.WebDriverFactory.GetDefaultBrowser()
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.BaseSeleniumTest.GetBrowser()
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.BaseSeleniumTest.<CreateSpecificTestObject>b__6_0()
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.SeleniumDriverManager.GetWebDriver()
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.SeleniumTestObject.get_WebDriver()
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.BaseSeleniumPageModel..ctor(ISeleniumTestObject testObject)
+   at PageModel.LoginPageModel..ctor(ISeleniumTestObject testObject) in c:\Users\derricklloyd.pua\source\repos\MAQS\Homework5\PageModel\LoginPageModel.cs:line 22
+   at Tests.SeleniumTestsVSUnit.Homework5() in c:\Users\derricklloyd.pua\source\repos\MAQS\Homework5\Tests\SeleniumTestsVSUnit.cs:line 19
+  Your web driver may be out of date or unsupported.
+     at CognizantSoftvision.Maqs.BaseSeleniumTest.WebDriverFactory.CreateDriver(Func`1 createFunction, Boolean retry)
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.WebDriverFactory.GetFirefoxDriver(TimeSpan commandTimeout, FirefoxOptions firefoxOptions, String size)
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.WebDriverFactory.GetBrowserWithDefaultConfiguration(BrowserType browser)
+    Process unexpectedly closed with status 0
+       at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.WebDriver..ctor(ICommandExecutor executor, ICapabilities capabilities)
+   at OpenQA.Selenium.Firefox.FirefoxDriver..ctor(FirefoxDriverService service, FirefoxOptions options, TimeSpan commandTimeout)
+   at OpenQA.Selenium.Firefox.FirefoxDriver..ctor(String geckoDriverDirectory, FirefoxOptions options, TimeSpan commandTimeout)
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.WebDriverFactory.<>c__DisplayClass13_0.<GetFirefoxDriver>b__0()
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.WebDriverFactory.CreateDriver(Func`1 createFunction, Boolean retry)
+
+2022-07-07 15:29:18.421
+ERROR:	Test failed
