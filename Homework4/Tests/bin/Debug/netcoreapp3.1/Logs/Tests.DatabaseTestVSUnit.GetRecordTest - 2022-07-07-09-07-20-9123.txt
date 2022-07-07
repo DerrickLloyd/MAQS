@@ -1,0 +1,48 @@
+
+2022-07-07 09:07:20.922
+INFORMATION:	Setup test object for Tests.DatabaseTestVSUnit.GetRecordTest
+
+2022-07-07 09:07:20.963
+INFORMATION:	Getting event firing database driver
+
+2022-07-07 09:07:20.987
+ACTION:	Perform query with:
+SELECT * from users
+
+2022-07-07 09:07:21.021
+ACTION:	Perform query with:
+SELECT * from users
+
+2022-07-07 09:07:21.037
+ACTION:	Perform insert with:
+
+
+2022-07-07 09:07:21.107
+ACTION:	Perform query with:
+SELECT * from users
+
+2022-07-07 09:07:21.108
+ACTION:	Perform update with:
+
+
+2022-07-07 09:07:21.118
+ACTION:	Perform query with:
+SELECT FirstName from users where Id = '11'
+
+2022-07-07 09:07:21.129
+ERROR:	
+Assert.AreEqual failed. Expected:<Derrick1 (System.String)>. Actual:<System.Collections.Generic.List`1[Dapper.SqlMapper+DapperRow] (System.Collections.Generic.List`1[[Dapper.SqlMapper+DapperRow, Dapper, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null]])>. 
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.HandleFail(String assertionName, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual[T](T expected, T actual, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(Object expected, Object actual, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(Object expected, Object actual)
+   at Tests.DatabaseTestVSUnit.GetRecordTest() in c:\Users\derricklloyd.pua\source\repos\MAQS\Homework4\Tests\DatabaseTestVSUnit.cs:line 49
+
+2022-07-07 09:07:21.133
+ERROR:	Test failed
+
+2022-07-07 09:07:21.145
+ACTION:	Release connection
+
+2022-07-07 09:07:21.146
+INFORMATION:	Released connection

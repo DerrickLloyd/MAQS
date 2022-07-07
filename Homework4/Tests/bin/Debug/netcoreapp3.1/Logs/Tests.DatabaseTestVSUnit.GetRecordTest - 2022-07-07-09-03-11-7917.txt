@@ -1,0 +1,31 @@
+
+2022-07-07 09:03:11.801
+INFORMATION:	Setup test object for Tests.DatabaseTestVSUnit.GetRecordTest
+
+2022-07-07 09:03:11.860
+INFORMATION:	Getting event firing database driver
+
+2022-07-07 09:03:11.867
+ACTION:	Perform query with:
+SELECT * from users
+
+2022-07-07 09:03:11.904
+ACTION:	Perform query with:
+SELECT * from users
+
+2022-07-07 09:03:11.921
+ACTION:	Perform insert with:
+
+
+2022-07-07 09:03:11.998
+ACTION:	Perform query with:
+SELECT * from users
+
+2022-07-07 09:03:12.000
+SUCCESS:	Test passed
+
+2022-07-07 09:03:12.020
+ACTION:	Release connection
+
+2022-07-07 09:03:12.022
+INFORMATION:	Released connection

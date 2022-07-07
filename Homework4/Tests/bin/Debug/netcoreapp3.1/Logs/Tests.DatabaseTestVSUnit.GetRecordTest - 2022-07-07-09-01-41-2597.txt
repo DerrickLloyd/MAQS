@@ -1,0 +1,64 @@
+
+2022-07-07 09:01:41.267
+INFORMATION:	Setup test object for Tests.DatabaseTestVSUnit.GetRecordTest
+
+2022-07-07 09:01:41.327
+INFORMATION:	Getting event firing database driver
+
+2022-07-07 09:01:41.335
+ACTION:	Perform query with:
+SELECT * from users
+
+2022-07-07 09:01:41.371
+ACTION:	Perform query with:
+SELECT * from users
+
+2022-07-07 09:01:41.386
+ACTION:	Perform insert with:
+
+
+2022-07-07 09:01:41.460
+ERROR:	Failed because: SQLite Error 1: 'table users has no column named OrderId'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'table users has no column named OrderId'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements(Stopwatch timer)+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements(Stopwatch timer)+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1066
+   at Dapper.SqlMapper.QueryMultipleImpl(IDbConnection cnn, CommandDefinition& command) in /_/Dapper/SqlMapper.cs:line 1033
+   at Dapper.SqlMapper.QueryMultiple(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 1009
+   at SQLiteAdapter.Insert(IDbConnection connection, IDbTransaction transaction, Nullable`1 commandTimeout, String tableName, String columnList, String parameterList, IEnumerable`1 keyProperties, Object entityToInsert) in /_/Dapper.Contrib/SqlMapperExtensions.cs:line 1067
+   at Dapper.Contrib.Extensions.SqlMapperExtensions.Insert[T](IDbConnection connection, T entityToInsert, IDbTransaction transaction, Nullable`1 commandTimeout) in /_/Dapper.Contrib/SqlMapperExtensions.cs:line 377
+   at CognizantSoftvision.Maqs.BaseDatabaseTest.DatabaseDriver.Insert[T](T entityToInsert, IDbTransaction transaction, Nullable`1 commandTimeout, String[] items)
+   at CognizantSoftvision.Maqs.BaseDatabaseTest.EventFiringDatabaseDriver.Insert[T](T entityToInsert, IDbTransaction transaction, Nullable`1 commandTimeout, String[] items)
+
+2022-07-07 09:01:41.464
+ERROR:	
+SQLite Error 1: 'table users has no column named OrderId'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements(Stopwatch timer)+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements(Stopwatch timer)+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1066
+   at Dapper.SqlMapper.QueryMultipleImpl(IDbConnection cnn, CommandDefinition& command) in /_/Dapper/SqlMapper.cs:line 1033
+   at Dapper.SqlMapper.QueryMultiple(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 1009
+   at SQLiteAdapter.Insert(IDbConnection connection, IDbTransaction transaction, Nullable`1 commandTimeout, String tableName, String columnList, String parameterList, IEnumerable`1 keyProperties, Object entityToInsert) in /_/Dapper.Contrib/SqlMapperExtensions.cs:line 1067
+   at Dapper.Contrib.Extensions.SqlMapperExtensions.Insert[T](IDbConnection connection, T entityToInsert, IDbTransaction transaction, Nullable`1 commandTimeout) in /_/Dapper.Contrib/SqlMapperExtensions.cs:line 377
+   at CognizantSoftvision.Maqs.BaseDatabaseTest.DatabaseDriver.Insert[T](T entityToInsert, IDbTransaction transaction, Nullable`1 commandTimeout, String[] items)
+   at CognizantSoftvision.Maqs.BaseDatabaseTest.EventFiringDatabaseDriver.Insert[T](T entityToInsert, IDbTransaction transaction, Nullable`1 commandTimeout, String[] items)
+   at Tests.DatabaseTestVSUnit.GetRecordTest() in c:\Users\derricklloyd.pua\source\repos\MAQS\Homework4\Tests\DatabaseTestVSUnit.cs:line 42
+
+2022-07-07 09:01:41.470
+ERROR:	Test failed
+
+2022-07-07 09:01:41.482
+ACTION:	Release connection
+
+2022-07-07 09:01:41.483
+INFORMATION:	Released connection

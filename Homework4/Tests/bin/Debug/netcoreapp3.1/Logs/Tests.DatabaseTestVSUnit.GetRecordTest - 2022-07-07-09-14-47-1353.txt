@@ -1,0 +1,47 @@
+
+2022-07-07 09:14:47.143
+INFORMATION:	Setup test object for Tests.DatabaseTestVSUnit.GetRecordTest
+
+2022-07-07 09:14:47.191
+INFORMATION:	Getting event firing database driver
+
+2022-07-07 09:14:47.220
+ACTION:	Perform query with:
+SELECT * from users
+
+2022-07-07 09:14:47.255
+ACTION:	Perform query with:
+SELECT * from users
+
+2022-07-07 09:14:47.270
+ACTION:	Perform insert with:
+
+
+2022-07-07 09:14:47.337
+ACTION:	Perform query with:
+SELECT * from users
+
+2022-07-07 09:14:47.338
+ACTION:	Perform update with:
+
+
+2022-07-07 09:14:47.349
+ACTION:	Perform query with:
+SELECT FirstName from users where Id = '11'
+
+2022-07-07 09:14:47.350
+ACTION:	Perform execute with:
+delete from users where FirstName = 'Derrick1'
+
+2022-07-07 09:14:47.355
+ACTION:	Perform query with:
+SELECT * from users
+
+2022-07-07 09:14:47.358
+SUCCESS:	Test passed
+
+2022-07-07 09:14:47.379
+ACTION:	Release connection
+
+2022-07-07 09:14:47.380
+INFORMATION:	Released connection

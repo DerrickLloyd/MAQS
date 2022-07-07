@@ -1,0 +1,45 @@
+
+2022-07-07 09:08:36.884
+INFORMATION:	Setup test object for Tests.DatabaseTestVSUnit.GetRecordTest
+
+2022-07-07 09:08:36.922
+INFORMATION:	Getting event firing database driver
+
+2022-07-07 09:08:36.946
+ACTION:	Perform query with:
+SELECT * from users
+
+2022-07-07 09:08:36.983
+ACTION:	Perform query with:
+SELECT * from users
+
+2022-07-07 09:08:36.998
+ACTION:	Perform insert with:
+
+
+2022-07-07 09:08:37.070
+ACTION:	Perform query with:
+SELECT * from users
+
+2022-07-07 09:08:37.071
+ACTION:	Perform update with:
+
+
+2022-07-07 09:08:37.080
+ACTION:	Perform query with:
+SELECT FirstName from users where Id = '11'
+
+2022-07-07 09:08:37.092
+ERROR:	
+Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Tests.DatabaseTestVSUnit.GetRecordTest() in c:\Users\derricklloyd.pua\source\repos\MAQS\Homework4\Tests\DatabaseTestVSUnit.cs:line 50
+
+2022-07-07 09:08:37.097
+ERROR:	Test failed
+
+2022-07-07 09:08:37.109
+ACTION:	Release connection
+
+2022-07-07 09:08:37.110
+INFORMATION:	Released connection

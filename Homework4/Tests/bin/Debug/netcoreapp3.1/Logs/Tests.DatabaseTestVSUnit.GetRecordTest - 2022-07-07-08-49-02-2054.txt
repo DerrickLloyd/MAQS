@@ -1,0 +1,27 @@
+
+2022-07-07 08:49:02.215
+INFORMATION:	Setup test object for Tests.DatabaseTestVSUnit.GetRecordTest
+
+2022-07-07 08:49:02.271
+INFORMATION:	Getting event firing database driver
+
+2022-07-07 08:49:02.279
+ACTION:	Perform query with:
+SELECT * from users
+
+2022-07-07 08:49:02.365
+ERROR:	
+Assert.AreEqual failed. Expected:<TEST>. Actual:<Bob>. Expected 10 rows
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.HandleFail(String assertionName, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual[T](T expected, T actual, String message, Object[] parameters)
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid4[T0,T1,T2,T3](CallSite site, T0 arg0, T1 arg1, T2 arg2, T3 arg3)
+   at Tests.DatabaseTestVSUnit.GetRecordTest() in c:\Users\derricklloyd.pua\source\repos\MAQS\Homework4\Tests\DatabaseTestVSUnit.cs:line 32
+
+2022-07-07 08:49:02.369
+ERROR:	Test failed
+
+2022-07-07 08:49:02.382
+ACTION:	Release connection
+
+2022-07-07 08:49:02.383
+INFORMATION:	Released connection
