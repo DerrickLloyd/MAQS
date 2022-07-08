@@ -1,0 +1,246 @@
+
+2022-07-08 10:03:40.870
+INFORMATION:	Setup test object for Tests.SeleniumTestsVSUnit.InvalidLoginTest
+
+2022-07-08 10:03:43.761
+INFORMATION:	Local driver: OpenQA.Selenium.Chrome.ChromeDriver
+
+2022-07-08 10:03:44.776
+INFORMATION:	Local driver: OpenQA.Selenium.Chrome.ChromeDriver
+
+2022-07-08 10:03:45.155
+INFORMATION:	Navigated to: https://magenicautomation.azurewebsites.net/Static/Training2/LoginPage.html
+
+2022-07-08 10:03:45.163
+INFORMATION:	Checking to see if the lazy element 'User name input' is displayed
+
+2022-07-08 10:03:45.312
+INFORMATION:	Found element: By.CssSelector: #UserName
+
+2022-07-08 10:03:45.472
+INFORMATION:	Checking to see if the lazy element 'Password input' is displayed
+
+2022-07-08 10:03:45.776
+INFORMATION:	Found element: By.CssSelector: #Password
+
+2022-07-08 10:03:45.955
+INFORMATION:	Checking to see if the lazy element 'Login button' is displayed
+
+2022-07-08 10:03:46.107
+INFORMATION:	Found element: By.CssSelector: #Login
+
+2022-07-08 10:03:46.158
+ACTION:	Send keys 'invalidUsername5' to 'User name input'
+
+2022-07-08 10:03:46.561
+INFORMATION:	Element value changed: invalidUsername5
+
+2022-07-08 10:03:46.564
+ACTION:	Send keys 'invalidPassword5' to 'Password input'
+
+2022-07-08 10:03:46.573
+INFORMATION:	Navigated to: https://magenicautomation.azurewebsites.net/Static/Training2/LoginPage.html
+
+2022-07-08 10:03:46.601
+INFORMATION:	Checking to see if the lazy element 'User name input' is displayed
+
+2022-07-08 10:03:46.784
+INFORMATION:	Found element: By.CssSelector: #UserName
+
+2022-07-08 10:03:47.047
+INFORMATION:	Element value changed: invalidPassword5
+
+2022-07-08 10:03:47.059
+ACTION:	Click 'Login button'
+
+2022-07-08 10:03:47.165
+INFORMATION:	Checking to see if the lazy element 'Password input' is displayed
+
+2022-07-08 10:03:47.260
+INFORMATION:	Found element: By.CssSelector: #Password
+
+2022-07-08 10:03:47.267
+INFORMATION:	Element clicking: Element (id = 3327d652-9605-4cb6-8b7e-12c7432df018) Text:Login Location: X:8 Y:292
+
+2022-07-08 10:03:47.331
+INFORMATION:	Checking to see if the lazy element 'Login button' is displayed
+
+2022-07-08 10:03:47.369
+INFORMATION:	Found element: By.CssSelector: #Login
+
+2022-07-08 10:03:47.542
+INFORMATION:	Local driver: OpenQA.Selenium.Chrome.ChromeDriver
+
+2022-07-08 10:03:47.607
+INFORMATION:	Local driver: OpenQA.Selenium.Chrome.ChromeDriver
+
+2022-07-08 10:03:47.637
+ACTION:	Send keys 'invalidUsername1' to 'User name input'
+
+2022-07-08 10:03:47.666
+INFORMATION:	Checking to see if the lazy element 'Error message' is displayed
+
+2022-07-08 10:03:47.693
+INFORMATION:	Found element: By.CssSelector: #LoginError
+
+2022-07-08 10:03:47.757
+SUCCESS:	Test passed
+
+2022-07-08 10:03:47.980
+INFORMATION:	Element value changed: invalidUsername1
+
+2022-07-08 10:03:47.985
+ACTION:	Send keys 'invalidPassword1' to 'Password input'
+
+2022-07-08 10:03:47.995
+INFORMATION:	Navigated to: https://magenicautomation.azurewebsites.net/Static/Training2/LoginPage.html
+
+2022-07-08 10:03:47.996
+INFORMATION:	Checking to see if the lazy element 'User name input' is displayed
+
+2022-07-08 10:03:48.049
+INFORMATION:	Found element: By.CssSelector: #UserName
+
+2022-07-08 10:03:48.079
+INFORMATION:	Checking to see if the lazy element 'Password input' is displayed
+
+2022-07-08 10:03:48.106
+INFORMATION:	Found element: By.CssSelector: #Password
+
+2022-07-08 10:03:48.126
+INFORMATION:	Checking to see if the lazy element 'Login button' is displayed
+
+2022-07-08 10:03:48.130
+INFORMATION:	Element value changed: invalidPassword1
+
+2022-07-08 10:03:48.131
+ACTION:	Click 'Login button'
+
+2022-07-08 10:03:48.145
+INFORMATION:	Found element: By.CssSelector: #Login
+
+2022-07-08 10:03:48.163
+ACTION:	Send keys 'invalidUsername4' to 'User name input'
+
+2022-07-08 10:03:48.180
+INFORMATION:	Element clicking: Element (id = 27ac2dcb-33e3-4cb7-a609-d3ce5264229d) Text:Login Location: X:8 Y:292
+
+2022-07-08 10:03:48.258
+INFORMATION:	Checking to see if the lazy element 'Error message' is displayed
+
+2022-07-08 10:03:48.263
+INFORMATION:	Element value changed: invalidUsername4
+
+2022-07-08 10:03:48.264
+ACTION:	Send keys 'invalidPassword4' to 'Password input'
+
+2022-07-08 10:03:48.272
+INFORMATION:	Found element: By.CssSelector: #LoginError
+
+2022-07-08 10:03:48.287
+SUCCESS:	Test passed
+
+2022-07-08 10:03:48.415
+INFORMATION:	Element value changed: invalidPassword4
+
+2022-07-08 10:03:48.416
+ACTION:	Click 'Login button'
+
+2022-07-08 10:03:48.485
+INFORMATION:	Element clicking: Element (id = 226bf590-8e4a-486f-a8c7-1b32daa00567) Text:Login Location: X:8 Y:292
+
+2022-07-08 10:03:48.551
+INFORMATION:	Navigated to: https://magenicautomation.azurewebsites.net/Static/Training2/LoginPage.html
+
+2022-07-08 10:03:48.552
+INFORMATION:	Checking to see if the lazy element 'User name input' is displayed
+
+2022-07-08 10:03:48.576
+INFORMATION:	Found element: By.CssSelector: #UserName
+
+2022-07-08 10:03:48.635
+INFORMATION:	Navigated to: https://magenicautomation.azurewebsites.net/Static/Training2/LoginPage.html
+
+2022-07-08 10:03:48.637
+INFORMATION:	Checking to see if the lazy element 'User name input' is displayed
+
+2022-07-08 10:03:48.671
+INFORMATION:	Checking to see if the lazy element 'Password input' is displayed
+
+2022-07-08 10:03:48.693
+INFORMATION:	Checking to see if the lazy element 'Error message' is displayed
+
+2022-07-08 10:03:48.698
+INFORMATION:	Found element: By.CssSelector: #Password
+
+2022-07-08 10:03:48.741
+INFORMATION:	Found element: By.CssSelector: #UserName
+
+2022-07-08 10:03:48.772
+INFORMATION:	Found element: By.CssSelector: #Login
+
+2022-07-08 10:03:48.789
+SUCCESS:	Test passed
+
+2022-07-08 10:03:48.814
+INFORMATION:	Checking to see if the lazy element 'Password input' is displayed
+
+2022-07-08 10:03:48.856
+INFORMATION:	Found element: By.CssSelector: #Password
+
+2022-07-08 10:03:48.889
+INFORMATION:	Checking to see if the lazy element 'Login button' is displayed
+
+2022-07-08 10:03:48.924
+INFORMATION:	Found element: By.CssSelector: #Login
+
+2022-07-08 10:03:48.939
+ACTION:	Send keys 'invalidUsername2' to 'User name input'
+
+2022-07-08 10:03:48.959
+INFORMATION:	Element value changed: invalidUsername3
+
+2022-07-08 10:03:48.960
+ACTION:	Send keys 'invalidPassword3' to 'Password input'
+
+2022-07-08 10:03:49.066
+INFORMATION:	Element value changed: invalidUsername2
+
+2022-07-08 10:03:49.067
+ACTION:	Send keys 'invalidPassword2' to 'Password input'
+
+2022-07-08 10:03:49.076
+INFORMATION:	Element value changed: invalidPassword3
+
+2022-07-08 10:03:49.079
+ACTION:	Click 'Login button'
+
+2022-07-08 10:03:49.121
+INFORMATION:	Element clicking: Element (id = 2f766dda-4aa2-47c0-8c7d-529c78209a3a) Text:Login Location: X:8 Y:292
+
+2022-07-08 10:03:49.174
+INFORMATION:	Element value changed: invalidPassword2
+
+2022-07-08 10:03:49.175
+ACTION:	Click 'Login button'
+
+2022-07-08 10:03:49.218
+INFORMATION:	Checking to see if the lazy element 'Error message' is displayed
+
+2022-07-08 10:03:49.225
+INFORMATION:	Element clicking: Element (id = b8507c50-92f6-4f4b-95e2-ca7fcabc75d2) Text:Login Location: X:8 Y:292
+
+2022-07-08 10:03:49.232
+INFORMATION:	Found element: By.CssSelector: #LoginError
+
+2022-07-08 10:03:49.246
+SUCCESS:	Test passed
+
+2022-07-08 10:03:49.329
+INFORMATION:	Checking to see if the lazy element 'Error message' is displayed
+
+2022-07-08 10:03:49.342
+INFORMATION:	Found element: By.CssSelector: #LoginError
+
+2022-07-08 10:03:49.354
+SUCCESS:	Test passed

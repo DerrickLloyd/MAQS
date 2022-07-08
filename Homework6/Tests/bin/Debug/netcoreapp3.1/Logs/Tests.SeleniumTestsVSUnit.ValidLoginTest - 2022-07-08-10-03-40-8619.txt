@@ -1,0 +1,321 @@
+
+2022-07-08 10:03:40.870
+INFORMATION:	Setup test object for Tests.SeleniumTestsVSUnit.ValidLoginTest
+
+2022-07-08 10:03:47.637
+INFORMATION:	Local driver: OpenQA.Selenium.Chrome.ChromeDriver
+
+2022-07-08 10:03:48.759
+INFORMATION:	Navigated to: https://magenicautomation.azurewebsites.net/Static/Training2/LoginPage.html
+
+2022-07-08 10:03:48.770
+INFORMATION:	Checking to see if the lazy element 'User name input' is displayed
+
+2022-07-08 10:03:48.789
+INFORMATION:	Found element: By.CssSelector: #UserName
+
+2022-07-08 10:03:48.824
+INFORMATION:	Checking to see if the lazy element 'Password input' is displayed
+
+2022-07-08 10:03:48.847
+INFORMATION:	Found element: By.CssSelector: #Password
+
+2022-07-08 10:03:48.885
+INFORMATION:	Checking to see if the lazy element 'Login button' is displayed
+
+2022-07-08 10:03:48.914
+INFORMATION:	Found element: By.CssSelector: #Login
+
+2022-07-08 10:03:48.948
+ACTION:	Send keys 'Ted' to 'User name input'
+
+2022-07-08 10:03:49.075
+INFORMATION:	Element value changed: Ted
+
+2022-07-08 10:03:49.076
+ACTION:	Send keys '123' to 'Password input'
+
+2022-07-08 10:03:49.182
+INFORMATION:	Element value changed: 123
+
+2022-07-08 10:03:49.183
+ACTION:	Click 'Login button'
+
+2022-07-08 10:03:49.228
+INFORMATION:	Element clicking: Element (id = 0458c6d4-1b45-4e46-9644-21af593ed26e) Text:Login Location: X:8 Y:292
+
+2022-07-08 10:03:49.769
+INFORMATION:	Checking to see if the lazy element 'Welcome message' is displayed
+
+2022-07-08 10:03:49.783
+INFORMATION:	Found element: By.CssSelector: #WelcomeMessage
+
+2022-07-08 10:03:49.803
+ACTION:	Click 'About button'
+
+2022-07-08 10:03:49.829
+INFORMATION:	Found element: By.CssSelector: #About
+
+2022-07-08 10:03:49.887
+INFORMATION:	Element clicking: Element (id = c1a6c814-2f41-4c08-80e2-ee9e1113b5cb) Text: Location: X:1149 Y:155
+
+2022-07-08 10:03:50.403
+INFORMATION:	Checking to see if the lazy element 'About Table' is displayed
+
+2022-07-08 10:03:50.411
+INFORMATION:	Found element: By.CssSelector: #AboutTable
+
+2022-07-08 10:03:50.418
+ACTION:	Click 'How It Works button'
+
+2022-07-08 10:03:50.426
+INFORMATION:	Found element: By.CssSelector: #HowWork
+
+2022-07-08 10:03:50.451
+INFORMATION:	Element clicking: Element (id = 3c13e7a1-5a65-4fca-b11d-69721692c91c) Text: Location: X:390 Y:155
+
+2022-07-08 10:03:50.710
+INFORMATION:	Checking to see if the lazy element 'How It Works Text' is displayed
+
+2022-07-08 10:03:50.717
+INFORMATION:	Found element: By.CssSelector: #HowWorks
+
+2022-07-08 10:03:50.725
+ACTION:	Click 'Async button'
+
+2022-07-08 10:03:50.733
+INFORMATION:	Found element: By.CssSelector: #Async
+
+2022-07-08 10:03:50.759
+INFORMATION:	Element clicking: Element (id = 727b1270-f468-4702-a97b-cc0e9cea8a78) Text: Location: X:770 Y:155
+
+2022-07-08 10:03:51.026
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:51.150
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:51.276
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:51.399
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:51.523
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:51.645
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:51.771
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:51.895
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:52.019
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:52.144
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:52.272
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:52.394
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:52.519
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:52.645
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:52.768
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:52.880
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:53.007
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:53.132
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:53.258
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:53.391
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:53.512
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:53.655
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:53.779
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:53.905
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:54.033
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:54.158
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:54.285
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:54.397
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:54.521
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:54.649
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:54.773
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:54.900
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:55.025
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:55.151
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:55.275
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:55.398
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:55.523
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:55.648
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:55.760
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:55.886
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:56.011
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:56.134
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:56.258
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:56.380
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:56.504
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:56.628
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:56.749
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:56.873
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:56.984
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:57.108
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:57.236
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:57.355
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:57.490
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:57.618
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:57.754
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:57.870
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:57.990
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:58.114
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:58.239
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:58.350
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:58.474
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:58.595
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:58.718
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:58.842
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:58.975
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:59.088
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:59.212
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:59.346
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:59.460
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:59.585
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:59.708
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:59.841
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:03:59.959
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:04:00.083
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:04:00.089
+INFORMATION:	Checking to see if the lazy element 'Async Page Content' is displayed
+
+2022-07-08 10:04:00.095
+INFORMATION:	Found element: By.CssSelector: div[id*='AsyncContent']
+
+2022-07-08 10:04:00.102
+SUCCESS:	Test passed

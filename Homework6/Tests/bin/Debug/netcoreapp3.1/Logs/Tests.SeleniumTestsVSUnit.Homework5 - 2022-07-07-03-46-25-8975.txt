@@ -1,0 +1,210 @@
+
+2022-07-07 15:46:25.907
+INFORMATION:	Setup test object for Tests.SeleniumTestsVSUnit.Homework5
+
+2022-07-07 15:46:28.053
+INFORMATION:	Local driver: OpenQA.Selenium.Chrome.ChromeDriver
+
+2022-07-07 15:46:28.917
+INFORMATION:	Navigated to: https://magenicautomation.azurewebsites.net/Static/Training1/LoginPage.html
+
+2022-07-07 15:46:28.920
+INFORMATION:	Checking to see if the lazy element 'User name input' is displayed
+
+2022-07-07 15:46:28.937
+INFORMATION:	Found element: By.CssSelector: #UserName
+
+2022-07-07 15:46:28.953
+INFORMATION:	Checking to see if the lazy element 'Password input' is displayed
+
+2022-07-07 15:46:28.962
+INFORMATION:	Found element: By.CssSelector: #Password
+
+2022-07-07 15:46:28.972
+INFORMATION:	Checking to see if the lazy element 'Login button' is displayed
+
+2022-07-07 15:46:28.980
+INFORMATION:	Found element: By.CssSelector: #Login
+
+2022-07-07 15:46:28.988
+ACTION:	Send keys 'Ted' to 'User name input'
+
+2022-07-07 15:46:29.037
+INFORMATION:	Element value changed: Ted
+
+2022-07-07 15:46:29.038
+ACTION:	Send keys '123' to 'Password input'
+
+2022-07-07 15:46:29.081
+INFORMATION:	Element value changed: 123
+
+2022-07-07 15:46:29.082
+ACTION:	Click 'Login button'
+
+2022-07-07 15:46:29.102
+INFORMATION:	Element clicking: Element (id = 8e04df17-8a68-40c4-9dfc-d26fe1241d3b) Text:Login Location: X:8 Y:256
+
+2022-07-07 15:46:29.565
+INFORMATION:	Checking to see if the lazy element 'Welcome message' is displayed
+
+2022-07-07 15:46:29.573
+INFORMATION:	Found element: By.CssSelector: #WelcomeMessage
+
+2022-07-07 15:46:29.587
+ACTION:	Click 'About button'
+
+2022-07-07 15:46:29.597
+INFORMATION:	Found element: By.CssSelector: #About
+
+2022-07-07 15:46:29.621
+INFORMATION:	Element clicking: Element (id = ead39c63-bd7d-4296-90f0-0b333666a8a9) Text: Location: X:770 Y:155
+
+2022-07-07 15:46:30.102
+INFORMATION:	Checking to see if the lazy element 'About Table' is displayed
+
+2022-07-07 15:46:30.113
+INFORMATION:	Found element: By.CssSelector: #AboutTable
+
+2022-07-07 15:46:37.453
+INFORMATION:	Local driver: OpenQA.Selenium.Firefox.FirefoxDriver
+
+2022-07-07 15:46:38.710
+INFORMATION:	Navigated to: https://magenicautomation.azurewebsites.net/Static/Training1/LoginPage.html
+
+2022-07-07 15:46:38.711
+INFORMATION:	Checking to see if the lazy element 'User name input' is displayed
+
+2022-07-07 15:46:38.722
+INFORMATION:	Found element: By.CssSelector: #UserName
+
+2022-07-07 15:46:38.737
+INFORMATION:	Checking to see if the lazy element 'Password input' is displayed
+
+2022-07-07 15:46:38.741
+INFORMATION:	Found element: By.CssSelector: #Password
+
+2022-07-07 15:46:38.751
+INFORMATION:	Checking to see if the lazy element 'Login button' is displayed
+
+2022-07-07 15:46:38.755
+INFORMATION:	Found element: By.CssSelector: #Login
+
+2022-07-07 15:46:38.764
+ACTION:	Send keys 'Ted' to 'User name input'
+
+2022-07-07 15:46:38.770
+ERROR:	
+Cannot access a disposed object.
+Object name: 'System.Net.Http.HttpClient'.
+   at System.Net.Http.HttpClient.CheckDisposed()
+   at System.Net.Http.HttpClient.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.SendAsync(HttpRequestMessage request)
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.FindElement(By by)
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.Wait.<>c__DisplayClass38_0.<ElementIsVisible>b__0(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.Wait.ForVisibleElement(By by)
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.AbstractLazyIWebElement.GetRawVisibleElement()
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.AbstractLazyIWebElement.GetElement(Func`1 getElement)
+
+2022-07-07 15:46:43.033
+ERROR:	
+Cannot access a disposed object.
+Object name: 'System.Net.Http.HttpClient'.
+   at System.Net.Http.HttpClient.CheckDisposed()
+   at System.Net.Http.HttpClient.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.SendAsync(HttpRequestMessage request)
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.FindElement(By by)
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.Wait.<>c__DisplayClass38_0.<ElementIsVisible>b__0(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.AbstractLazyIWebElement.GetRawVisibleElement()
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.AbstractLazyIWebElement.GetElement(Func`1 getElement)
+
+2022-07-07 15:46:48.838
+ERROR:	
+Failed to find: User name input
+Locator: By.CssSelector: #UserName
+Because: Cannot access a disposed object.
+Object name: 'System.Net.Http.HttpClient'.
+
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.AbstractLazyIWebElement.GetElement(Func`1 getElement)
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.AbstractLazyIWebElement.<>c__DisplayClass54_0.<SendKeys>b__0()
+   at CognizantSoftvision.Maqs.Utilities.Helper.GenericWait.Wait[T](Func`1 waitFor, TimeSpan retryTime, TimeSpan timeout)
+  Cannot access a disposed object.
+Object name: 'System.Net.Http.HttpClient'.
+     at System.Net.Http.HttpClient.CheckDisposed()
+   at System.Net.Http.HttpClient.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.SendAsync(HttpRequestMessage request)
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.FindElement(By by)
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.Wait.<>c__DisplayClass38_0.<ElementIsVisible>b__0(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.AbstractLazyIWebElement.GetRawVisibleElement()
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.AbstractLazyIWebElement.GetElement(Func`1 getElement)
+
+2022-07-07 15:46:48.840
+ERROR:	
+Timed out waiting for <SendKeys>b__0 to return
+   at CognizantSoftvision.Maqs.Utilities.Helper.GenericWait.Wait[T](Func`1 waitFor, TimeSpan retryTime, TimeSpan timeout)
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.AbstractLazyIWebElement.SendKeys(String text)
+   at PageModel.LoginPageModel.EnterCredentials(String userName, String password) in c:\Users\derricklloyd.pua\source\repos\MAQS\Homework5\PageModel\LoginPageModel.cs:line 74
+   at PageModel.LoginPageModel.LoginWithValidCredentials(String userName, String password) in c:\Users\derricklloyd.pua\source\repos\MAQS\Homework5\PageModel\LoginPageModel.cs:line 86
+   at Tests.SeleniumTestsVSUnit.Homework5() in c:\Users\derricklloyd.pua\source\repos\MAQS\Homework5\Tests\SeleniumTestsVSUnit.cs:line 37
+  Failed to find: User name input
+Locator: By.CssSelector: #UserName
+Because: Cannot access a disposed object.
+Object name: 'System.Net.Http.HttpClient'.
+
+     at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.AbstractLazyIWebElement.GetElement(Func`1 getElement)
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.AbstractLazyIWebElement.<>c__DisplayClass54_0.<SendKeys>b__0()
+   at CognizantSoftvision.Maqs.Utilities.Helper.GenericWait.Wait[T](Func`1 waitFor, TimeSpan retryTime, TimeSpan timeout)
+    Cannot access a disposed object.
+Object name: 'System.Net.Http.HttpClient'.
+       at System.Net.Http.HttpClient.CheckDisposed()
+   at System.Net.Http.HttpClient.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.SendAsync(HttpRequestMessage request)
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.FindElement(By by)
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.Wait.<>c__DisplayClass38_0.<ElementIsVisible>b__0(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.AbstractLazyIWebElement.GetRawVisibleElement()
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.AbstractLazyIWebElement.GetElement(Func`1 getElement)
+
+2022-07-07 15:46:48.846
+ERROR:	Test failed
+
+2022-07-07 15:46:48.921
+INFORMATION:	Screenshot saved: c:\Users\derricklloyd.pua\source\repos\MAQS\Homework5\Tests\bin\Debug\netcoreapp3.1\Logs\Tests.SeleniumTestsVSUnit.Homework5 - 2022-07-07-03-46-25-8975 Final.Png
