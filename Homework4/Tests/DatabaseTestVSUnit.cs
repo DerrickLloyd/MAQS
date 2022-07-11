@@ -28,7 +28,7 @@ namespace Tests
 
 
             //Insert
-            User user = new User
+            User userInsert = new User
             {
                 Id = 11,
                 FirstName = "Derrick",
@@ -36,12 +36,12 @@ namespace Tests
 
             };
 
-            long id = this.DatabaseDriver.Insert(user);
+            long id = this.DatabaseDriver.Insert(userInsert);
             Assert.AreEqual(11, DatabaseDriver.Query<User>("SELECT * from users").ToList().Count);
-            Assert.AreEqual(11, id);
+            Assert.AreEqual(userInsert.Id, id);
 
-            List<User> insert = this.DatabaseDriver.Query<User>("SELECT FirstName from users where Id = '11'").ToList();
-            Assert.AreEqual("Derrick", insert[0].FirstName);
+            List<User> insert = this.DatabaseDriver.Query<User>($"SELECT FirstName from users where Id = '{userInsert.Id}'").ToList();
+            Assert.AreEqual(userInsert.FirstName, insert[0].FirstName);
 
 
             //Update
@@ -55,12 +55,12 @@ namespace Tests
 
             bool updated = this.DatabaseDriver.Update(userUpdate);
             Assert.AreEqual(true, updated);
-            List<User> update = this.DatabaseDriver.Query<User>("SELECT FirstName from users where Id = '11'").ToList();
-            Assert.AreEqual("Derrick1", update[0].FirstName);
+            List<User> update = this.DatabaseDriver.Query<User>($"SELECT FirstName from users where Id = '{userUpdate.Id}'").ToList();
+            Assert.AreEqual(userUpdate.FirstName, update[0].FirstName);
 
 
             //Delete
-            int numDeleted = this.DatabaseDriver.Execute("delete from users where FirstName = 'Derrick1'");
+            int numDeleted = this.DatabaseDriver.Execute($"delete from users where FirstName = '{userUpdate.FirstName}'");
             Assert.AreEqual(1, numDeleted);
             Assert.AreEqual(10, DatabaseDriver.Query<User>("SELECT * from users").ToList().Count);
             
